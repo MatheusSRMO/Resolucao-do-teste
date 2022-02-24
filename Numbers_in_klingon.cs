@@ -40,7 +40,7 @@ namespace Resolução_do_teste {
 
                 BigInteger number_klingon = 0;
                 for(int i = 0; i < word_list.Length; i++) {
-                    int number_value = Vocabulary_klingon.get_indice(klingon_alphabet, word_list[i]);
+                    int number_value = Vocabulary_klingon.get_index(klingon_alphabet, word_list[i]);
                     BigInteger _sqrt = Convert.ToInt64(Math.Pow(20, i));
                     number_klingon += number_value * _sqrt;
                 }

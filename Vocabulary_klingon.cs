@@ -68,13 +68,13 @@ namespace Resolução_do_teste {
             // maior que zero se primeira palavra esta depois da segunda, menor que zero caso o contrario 
 
             x = x == lower_lenght ? x - 1 : x;
-            int indice_first_word = get_indice(klingon_alphabet, first_word_char_list[x]);
-            int indice_second_word = get_indice(klingon_alphabet, second_word_char_list[x]);
+            int indice_first_word = get_index(klingon_alphabet, first_word_char_list[x]);
+            int indice_second_word = get_index(klingon_alphabet, second_word_char_list[x]);
 
             return indice_second_word - indice_first_word;
         }
 
-        public static int get_indice(char[] array, char element) {
+        public static int get_index(char[] array, char element) {
 
             int indice = -1;
 
