@@ -47,6 +47,7 @@ namespace Resolução_do_teste {
                 
                 if(number_klingon >= 440566 && number_klingon % 3 == 0 && !prety_numbers_read.Contains(number_klingon)) {
                     amount_prety_numbers++;
+                    prety_numbers_read.Add(number_klingon);
                 }
             }
             
